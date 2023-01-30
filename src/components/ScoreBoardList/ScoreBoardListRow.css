@@ -1,0 +1,51 @@
+.styleList {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border: 1px solid #e2e2e2;
+}
+.styleList:nth-child(2n+2){
+    background-color: #e3eff4;
+}
+.styleList:hover {
+    background-color: #7a7af4;
+    transition: 0.5s;
+}
+.leftContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+    border-radius: 50%;
+  width: 35px;
+}
+
+.rank {
+position: absolute;
+left: 20px;
+border-radius: 50%;
+color: white;
+font-weight: bold;
+font-size: 10px;
+top: 22px;
+padding: 0px 5px;
+
+}
+
+.name {
+  color: #000;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.score {
+  color: #000;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.point {
+ color: #8d8c8c; 
+}
